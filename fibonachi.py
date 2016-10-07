@@ -6,9 +6,9 @@ def fib(n):
    else:                      
       return fib(n-1) + fib(n-2)
 
-def fibonachi_sequence(number):
+def fibonachi_sequence(length):
     sequence = []
-    for i in range(1, number):
+    for i in range(1, length + 1):
         sequence.append(fib(i))
     return sequence
     
